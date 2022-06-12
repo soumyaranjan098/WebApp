@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#061628,#133E72);
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    height: 100vh;
+   
+}
+.first{
+    background-image: url(img1/Group\ 31.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+ .container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   /* padding: 50px; */
+} 
+.resister{
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    width: 40vw;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 5px 80px ; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    /* height: 40%;
+    width: 60%; */
+    /* text-align: center; */
+    /* display: flex; */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.119);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50px;
+}
+h1{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-shadow: 2px 3px 5px #000;
+}
+.inputBox{
+    margin-top: 10%;
+    width: 100%;
+}
+
+ input{
+    width: 100%;
+    padding: 12px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px rgb(34, 34, 34);
+}
+.inputBtn{
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+}
+.inputBtn .btn2{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(0, 177, 0);
+    text-shadow: 1px 1px 2px ;
+    width: 30% !important;
+    min-height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 2.5%;
+    box-shadow: 2px 4px 5px rgba(44, 44, 44, 0.436);
+}
+.btn2:hover{
+    background-color: rgb(0, 129, 0);
+    transition: all 0.2s ease-in;
+    color: aliceblue;
+}
+input:hover{
+    transition: all 0.2s ease-in;
+    transform: translateY(-3px);
+    
+}
+textarea:hover{
+    transition: all 0.2s ease-in;
+    transform: translateY(-3px);
+}
+.area{
+    margin-top: 15%;
+    width: 100%;
+    text-align: right;
+}
+.area h5{
+    color:#9F9F9F;
+    white-space: pre;
+    text-shadow: 1px 1px 2px #000;
+}
+.area a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+.area a:hover{
+    color: white;
+}
